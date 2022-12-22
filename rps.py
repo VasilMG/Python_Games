@@ -7,12 +7,12 @@ root.title("RPS Game")
 
 root.geometry("1200x700",)
 
-rock = PhotoImage(file="C:\\Users\\vasil\\PycharmProjects\\rps\\images\\8-2-rock-png-picture-thumb.png")
-paper = PhotoImage(file="C:\\Users\\vasil\\PycharmProjects\\rps\\images\\paper.png")
-scissors = PhotoImage(file="C:\\Users\\vasil\\PycharmProjects\\rps\\images\\new_scissors_top.png")
-small_rock = PhotoImage(file="C:\\Users\\vasil\\PycharmProjects\\rps\\images\\small_rock.png")
-small_paper = PhotoImage(file="C:\\Users\\vasil\\PycharmProjects\\rps\\images\\small_paper.png")
-small_scissors = PhotoImage(file="C:\\Users\\vasil\\PycharmProjects\\rps\\images\\small_scissors.png")
+rock = PhotoImage(file="path to the picture")
+paper = PhotoImage(file="path to the picture")
+scissors = PhotoImage(file="path to the picture")
+small_rock = PhotoImage(file="path to the picture")
+small_paper = PhotoImage(file="path to the picture")
+small_scissors = PhotoImage(file="path to the picture")
 
 user_choice = 0
 
