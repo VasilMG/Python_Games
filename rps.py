@@ -1,5 +1,6 @@
 from tkinter import *
 from random import *
+import time
 
 
 root = Tk()
@@ -36,6 +37,7 @@ def on_click(button):
 
 def play(user_pick):
     pc_pick = randint(0,2)
+    time.sleep(0.5)
     image_label.config(image=image_list[pc_pick])
     if user_pick == 0:
         if pc_pick == 0:
